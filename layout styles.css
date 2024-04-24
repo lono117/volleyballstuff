@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color:  #CCCCCC;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.common.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.common.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+}
+.common.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+  
+
+}
+.common.rightmenu {
+    position: fixed;
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+}
+.common.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+   padding-top: 15px;
+
+}
+.subheader {
+    float: right;
+}
